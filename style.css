@@ -1,0 +1,506 @@
+@import url('https://fonts.googleapis.com/css2?family=Heebo:wght@300;400;500;600;700;800&family=Poppins:wght@300;400;500;600;700&family=Raleway:ital,wght@0,300;0,600;0,700;0,800;1,500&display=swap');
+
+*{
+     margin: 0;
+     padding: 0;
+     box-sizing: border-box;
+     font-family: 'Heebo' sans-serif;
+}
+
+body{
+     font-family: 'Heebo' sans-serif;
+}
+
+a{
+     text-decoration: none;
+     color: #000;
+}
+
+.logo p{
+     font-family: 'Heebo' sans-serif;
+     font-size: 5vh;
+     color: #303f9f;
+}
+
+nav{
+     padding: 20px 148px;
+     background: #fff;
+     display: flex;
+     align-items: center;
+     justify-content: space-between;
+}
+
+a{
+     font-weight: 600;
+}
+
+nav .logo{
+     display: flex;
+     align-items: center;
+     gap: 1;
+}
+
+nav .logo p{
+     width: 40px;
+     height: 40px;
+}
+
+nav .logo a{
+     font-size: 15px;
+     color: #2e2e2e; 
+     font-weight: bold;
+}
+
+nav .nav-links{
+     display: flex;
+     gap: 16px;
+}
+
+nav .nav-links a{
+     transition: color 0.3s ease ;
+}
+
+nav .nav-links a:hover,
+nav .nav-links a.selected{
+     color: #303f9f;
+}
+
+.main{
+     padding: 0 148px;
+     display: flex;
+     align-items: center;
+     justify-content: space-between;
+     gap: 50px;
+     height: calc(100vh - 80px); /* Учитывая nav поэтому -80px*/
+}
+
+.main .info h1{
+     font-size: 44px;
+     margin-bottom: 44px;
+}
+
+.main .info p{
+     font-size: 16px;
+     margin-bottom: 45px;
+     width: 100%;
+}
+
+.main .info button{
+     padding: 10px 30px;
+     background-color: #303f9f;
+     border: none;
+     color: #fff;
+     font-size: 16px;
+     border-radius: 12px;
+     cursor: pointer;
+     transition: background 0.3s ease;
+}
+
+.main .info button:hover{
+     background: #1a237e;
+
+}
+
+.main img{
+     width: 550px;
+     height: 400px;
+     border-radius: 140px;
+}
+
+.card-books .item h3{
+     font-family: 'Heebo', sans-serif;
+     font-size: 20px;
+     font-weight: 400;
+}
+
+.card-books .item img{
+     width: 200px;
+     height: 250px;
+}
+
+.card-books{
+     padding: 40px 148px;
+     display: flex;
+     justify-content: space-between;
+     gap: 50px;
+     background-color: #bdebfe;
+}
+
+.card-books .item h3{
+     display: flex;
+     justify-content: center;
+}
+
+.item{
+     background-color: #d9eff8;
+     border-radius: 12px;
+     width: 400px;
+}
+
+.item img{
+     display: block;
+     margin-left: auto;
+     margin-right: auto;
+     border-radius: 12px;
+     margin-top: 10px;
+     margin-bottom: 10px;
+}
+
+.item p{
+     margin: 10px 30px;
+     font-family: 'Heebo' sans-serif;
+     margin-bottom: 10px;
+}
+
+.card-books2 .item-2 img{
+     width: 200px;
+     height: 250px;
+}
+
+.item-2 p{
+     margin: 10px 30px;
+     font-family: 'Heebo' sans-serif;
+     margin-bottom: 10px;
+}
+
+.card-books2{
+     padding: 40px 148px;
+     display: flex;
+     justify-content: space-between;
+     gap: 50px;
+     background-color: #bdebfe;
+}
+.item-2{
+     background-color: #d9eff8;
+     border-radius: 12px;
+     width: 400px;
+}
+
+.item-2 img{
+     display: block;
+     margin-left: auto;
+     margin-right: auto;
+     border-radius: 12px;
+     margin-top: 10px;
+     margin-bottom: 10px;
+}
+
+.card-books2 .item-2 h3{
+     display: flex;
+     justify-content: center;
+}
+
+.biografh1 h1{
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     font-family: 'Heebo', sans-serif;
+}
+
+.biograf{
+     display: flex;
+     padding: 20px 148px;
+     gap: 40px;
+}
+
+.biograf p{
+     font-family: 'Heebo', sans-serif;
+}
+
+.biograf img{
+     width: 800px;
+     height: 500px;
+}
+
+.footer{
+     height: 300px;
+     background: #bdebfe;
+}
+
+.footer-base{
+     height: 300px;
+     background: #303f9f;
+}
+
+.poems-1{
+     width: 500px;
+     margin-left: auto;
+     margin-right: auto;
+     margin-top: 50px;
+     font-family: 'Heebo', sans-serif;
+     background: #d1ebf8;
+     border-radius: 12px;
+}
+
+.poems-1 p h1{
+     font-size: 20px;
+}
+
+.poems-main {
+     width: 300px;
+     margin-left: auto;
+     margin-right: auto;
+}
+
+.poems-main2{
+     margin-left: auto;
+     margin-right: auto;
+}
+
+.poems-main2 p{
+     width: 300px;
+     margin-left: auto;
+     margin-right: auto;
+}
+
+.poems-main2 h1{
+     display: flex;
+     justify-content: center;
+}
+
+
+.poems-main2 {
+     width: 500px;
+     margin-left: auto;
+     margin-right: auto;
+     margin-top: 50px;
+     font-family: 'Heebo', sans-serif;
+     background: #d1ebf8;
+     border-radius: 12px;
+}
+
+.poems-main4 p{
+     width: 300px;
+     margin-left: auto;
+     margin-right: auto;
+}
+
+.poems-main4 h1{
+     display: flex;
+     justify-content: center;
+}
+
+
+.poems-main4 {
+     width: 500px;
+     margin-left: auto;
+     margin-right: auto;
+     margin-top: 50px;
+     font-family: 'Heebo', sans-serif;
+     background: #d1ebf8;
+     border-radius: 12px;
+}
+
+.poems-main3 {
+     width: 500px;
+     margin-left: auto;
+     margin-right: auto;
+     margin-top: 50px;
+     font-family: 'Heebo', sans-serif;
+     background: #d1ebf8;
+     border-radius: 12px;
+}
+
+.poems-main3 p{
+     width: 300px;
+     margin-left: auto;
+     margin-right: auto;
+}
+
+.poems-main3 h1{
+     display: flex;
+     justify-content: center;
+}
+
+
+.poems-1 h1{
+     padding-top: 10px;
+}
+
+.poems-1 .poems-item img{
+     display: flex;
+     margin-left: auto;
+     margin-right: auto;
+}
+
+
+.poems-1 .poems-item p{
+     font-size: 30px;
+     padding: 30px 0;
+}
+
+.poems-1 img{
+     width: 70px;
+     height: 70px;
+     border-radius: 50px;
+}
+
+.poems-item p{
+     display: flex;
+     justify-content: center;
+}
+
+.poems-item{
+     padding-top: 20px;
+}
+
+
+@media screen and (max-width: 1400px) {
+     nav{
+          padding: 20px 60px;
+     }
+
+     .main{
+          padding: 0 60px;
+     }
+
+     .card-books{
+          padding: 60px;
+     }
+     .card-books2{
+          padding: 60px;
+     }
+
+     .biograf{
+          flex-direction: column;
+     }
+
+}
+
+@media screen and (max-width: 1200px){
+     
+     nav{
+          padding: 20px 40px;
+     }
+
+     .main{
+          padding: 0 40px;
+     }
+
+     .main img{
+          width: 500px;
+          height: 350px;
+     }
+
+
+     .card-books{
+          padding: 40px;
+     }
+
+     .card-books2{
+          padding: 40px;
+     }
+
+     .biograf{
+          flex-direction: column;
+     }
+}
+
+@media screen and (max-width: 992px){
+
+     nav{
+          padding: 20px;
+     }
+
+     .main{
+          padding: 0 20px;
+     }
+
+     .main img{
+          width: 450px;
+          height: 300px;
+     }
+
+     .main .info h1{
+          font-size: 34px;
+
+     }
+
+     .main .info p{
+          font-size: 15px;
+     }
+
+     .main .info button{
+          font-size: 15px;
+          padding: 8px 22px;
+     }
+
+     .card-books{
+          padding: 22px;
+          font-size: 15px;
+     }
+
+     .card-books2{
+          padding: 22px;
+          font-size: 15px;
+     }
+
+     .biograf{
+          flex-direction: column;
+     }
+
+     .biograf img{
+          width: 600px;
+          height: 400px;
+     }
+
+}
+
+@media screen and (max-width: 768px){
+
+     nav{
+          justify-content: center;
+     }
+
+     nav .logo{
+          display: none;
+     }
+
+     .main{
+          flex-direction: column;
+          justify-content: space-around;
+          margin: 40px 0;
+          height: auto;
+     }
+
+     .main .info h1{
+          font-size: 30px;
+          margin-bottom: 16px;
+     }
+
+     .main .info p{
+          margin-bottom: 16px;
+     }
+
+     .main .info button{
+          padding: 6px 20px;   
+          font-size: 13px;       
+     }
+
+     .main img{
+          margin-top: 20px;
+          width: 100%;
+          height: auto;
+          border-radius: 50px;
+     }
+
+     .card-books{
+          flex-direction: column;
+          align-items: center;
+     }
+
+     .card-books2{
+          flex-direction: column;
+          align-items: center;
+     }
+
+     .biograf{
+          flex-direction: column;
+     }
+
+     .biograf img{
+          width: 500px;
+          height: 300px;
+     }
+
+}
